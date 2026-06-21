@@ -1,0 +1,33 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 23rem;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-height: 21rem;
+  margin-top: 0;
+}
+.swiper-slide:active {
+  cursor: grab;
+  
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 90%;
+}
